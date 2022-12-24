@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+main()
+{
+float q;
+float w;
+float e;
+float r;
+float t;
+float y;
+float u;
+float i;
+float o;
+float p;
+float a;
+float s;
+float d;
+float f;
+float g;
+float result1;
+float result2;
+float result3;
+float result4;
+
+cout <<"enter 1st number :";
+cin >>q ;
+cout <<"enter 2nd number :";
+cin >> w;
+cout <<"enter 3rd number :";
+cin >> e;
+cout <<"enter 4th number :";
+cin >> r;
+cout <<"enter 5th number :";
+cin >> t ;
+cout <<"enter 6th number :";
+cin >> y;
+cout <<"enter 7th number :";
+cin >> u;
+cout <<"enter 8th number :";
+cin >> i;
+cout <<"enter 9th number :";
+cin >> o;
+cout <<"enter 10th number :";
+cin >> p;
+cout <<"enter 11th number :";
+cin >> a;
+cout <<"enter 12th number :";
+cin >> s;
+cout <<"enter 13th number :";
+cin >> d;
+cout <<"enter 14th number :";
+cin >> f;
+cout <<"enter 15th number :";
+cin >> g;
+result1= q+w+e+r+t;
+result2=y*u*i*o*p;
+result3=a-s-d-f-g;
+result4=result1+result2-result3;
+cout<<"Total :"<<result4;
+}
